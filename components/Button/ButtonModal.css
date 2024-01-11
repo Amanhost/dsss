@@ -1,0 +1,24 @@
+.modal-btn {
+  display: flex;
+  justify-content: flex-end;
+}
+#modal-body::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+#modal-body::-webkit-scrollbar-track {
+  background: #ad3460;
+}
+#modal-body::-webkit-scrollbar-thumb {
+  background: #e06995;
+}
+#w-50 {
+  position: inherit;
+  z-index: -3;
+}
+input {
+  height: 3rem;
+}
+#center{
+  cursor: not-allowed;
+}

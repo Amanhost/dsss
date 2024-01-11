@@ -1,0 +1,39 @@
+.action-container {
+  max-width: 500px;
+  position: relative;
+  z-index: 100;
+}
+
+.action-btn {
+  border: 2px solid var(--light-primary-color);
+  /* opacity: 0.38; */
+  background: #fff;
+  padding: 0.2rem 1.5rem;
+  border-radius: 0.5rem;
+  font-weight: 500;
+}
+
+.action-menu {
+  position: absolute;
+  border: 2px solid var(--light-primary-color);
+  /* opacity: 0.38; */
+  background: #fff;
+  /* background: none; */
+  padding: 0.2rem 1.5rem;
+  margin: 0.5rem 0;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  min-width: 250px;
+  right: 0;
+  color: grey;
+}
+
+.action-item-disabled {
+  pointer-events: none;
+  color: gainsboro;
+}
+
+.action-item:hover {
+  cursor: pointer;
+  color: var(--primary-color);
+}

@@ -1,0 +1,104 @@
+/* body {
+    background: #3da3d5;
+    font-family: "Montserrat", sans-serif;
+    font-size: 10px;
+    color: rgb(53, 53, 53);
+  }
+ 
+  
+  .title {
+    font-size: em;
+    text-align: center;
+    font-family: "Bebas Neue", sans-serif;
+  }
+  
+  h3 {
+    padding-top: 0.25em;
+  }
+  
+  .vertical-timeline-element-content {
+    box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+      0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+    padding: em em !important;
+    height:10rem;
+    margin-left: 26rem;
+   
+    
+  }
+  
+  .date {
+    color: rgb(0, 3, 3);
+  }
+  
+  #description {
+    margin: 1.5em 0 2em 0;
+  }
+  
+  .button {
+    text-decoration: none;
+    padding: 0.5em 1em;
+    border-radius: 5px;
+    color: white;
+  }
+  
+  .workButton {
+    background-color: #06d6a0;
+  }
+  
+  .workButton:hover {
+    background-color: #0ac593;
+  }
+  
+  .schoolButton {
+    background-color: #f9c74f;
+  }
+  
+  .schoolButton:hover {
+    background-color: #f3bc3c;
+  }
+  
+  @media only screen and (max-width: 1700px) {
+    .vertical-timeline-element-date {
+     
+      color: rgb(44, 44, 44);
+      margin-top: 1.5em;
+    }
+  }
+  .Timeline-container{
+  height: 200px;
+  width: 50%;
+  }
+  .vertical-timeline  {
+    margin-left: 26rem;
+  } */
+
+/* .circle-data{
+    align-items: center;
+    font-size: 1px;
+  } */
+  .App {
+    font-family: sans-serif;
+    text-align: center;
+    -webkit-transition:3s;
+    transition: 2s;
+    scrollbar-width: thin;
+    scrollbar-color: var(--scroll-bar-color) var(--scroll-bar-bg-color);
+    margin-left: -10rem;
+   
+   
+   
+  }
+  .circle-data {
+    display: flex;
+    justify-content: center;
+    font-size: 100px;
+  }
+  .circle-item {
+    align-items: center;
+    word-break: break-all;
+  }
+  
+  .vertical-timeline-element-content bounce-in{
+    margin-right: 1rem;
+  }
+  
